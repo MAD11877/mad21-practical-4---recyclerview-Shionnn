@@ -44,8 +44,10 @@
         android:id="@+id/userImageView2"
         android:layout_width="607dp"
         android:layout_height="412dp"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:layout_editor_absoluteX="-98dp"
-        tools:layout_editor_absoluteY="126dp" />
+        android:layout_marginTop="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
